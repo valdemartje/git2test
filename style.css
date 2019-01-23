@@ -1,0 +1,209 @@
+/*dit is de balk bij het menu*/
+nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(20, 50, 20, 0.8);
+  border: solid 3px lightgreen;
+}
+
+/*hier staat van dat als ik op de link zweef ik dan een ander kleur kan krijgen*/
+nav a:hover {
+  font-size: 26px;
+  color: white;
+  background-color: lightgreen;
+}
+
+/*bij de linkjes*/
+nav ul {
+  color: lightgrey;
+  text-align: center;
+  list-style-type: none;
+  cursor: crosshair;
+}
+
+/*hier is dat alle listen inline en de tussenruimte */
+nav li a {
+  width: 150px;
+  height: 35px;
+  display: inline;
+  float: left;
+  color: lightgrey;
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+/* hier staat wat de achtergrondkleur is*/
+body {
+  background-color: green;
+}
+
+/*linkjes exclusief Menu*/
+.link {
+  color: lightgrey;
+  cursor: grab;
+}
+
+/*hover voor alle linkje exclusief menu*/
+a:hover {
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+/*hier zijn alle images*/
+/*foto's bij pagina hobbies*/
+.img1 {
+  height: 250px;
+  width: 400px;
+  position: fixed;
+  top: 25%;
+  right: 0%;
+}
+
+/*foto familie*/
+.img2 {
+  height: 315px;
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+
+}
+
+/*foto bij pagina doen*/
+.img3 {
+  height: 250px;
+  width: 800px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+/*foto bij pagina opleiding*/
+.img4 {
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+/*foto bij pagina kanten*/
+.img5 {
+  height: 250px;
+  width: 500px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+/*foto bij pagina project*/
+.img6 {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  right: 0%;
+}
+
+/*foto pagina mezelf*/
+.img7 {
+  height: 300px;
+  width: 450px;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+
+/*id tags*/
+/*dit is een tabel waar allemaal gegevens in staan*/
+/*tabel staat in familie*/
+#tabel1 {
+  color: lightgrey;
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+/*tabel staat in kanten*/
+#tabel2 {
+  color: lightgrey;
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+/*tabel staat in mezelf*/
+#tabel3 {
+  color: lightgrey;
+  width: 70%;
+  position: absolute;
+  top: 250px;
+}
+
+/*alle tabellen en dan de Thead zijn van tabellen*/
+th {
+  text-align: left;
+}
+
+/*pagina project*/
+.div1 {
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina mezelf*/
+.div2 {
+  color: lightgrey;
+  position: absolute;
+  width: 50%;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina hobbies*/
+.div3 {
+  color: lightgrey;
+  position: absolute;
+  width: 50%;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina Familie*/
+.div4 {
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina kanten*/
+.div5 {
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina Opleiding*/
+.div6 {
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+/*pagina  doen*/
+.div7 {
+  color: lightgrey;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
